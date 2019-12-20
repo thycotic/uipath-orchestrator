@@ -9,7 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsVault.SecureStore.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretServer.SecureStore", "SecretServer.SecureStore\SecretServer.SecureStore.csproj", "{E732F5E3-92E8-472A-8032-4C9CB1FDDF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretServer.SecureStore.Tests", "SecretServer.SecureStore.Tests\SecretServer.SecureStore.Tests.csproj", "{6C27342B-9FC6-4560-8FC4-E976DB653137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretServer.SecureStore.Tests", "SecretServer.SecureStore.Tests\SecretServer.SecureStore.Tests.csproj", "{6C27342B-9FC6-4560-8FC4-E976DB653137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B765FE63-7DCF-48F2-B03C-8ED4BE429F21}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget.config = Nuget.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
